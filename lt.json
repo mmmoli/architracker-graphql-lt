@@ -1,0 +1,35 @@
+{
+  "config": {
+    "name": "Architracker graphql",
+    "url": "https://hasura-graphql-engine-2tib3ez3va-ew.a.run.app/v1/graphql",
+    "queryFile": true,
+    "duration": 10,
+    "arrivalRate": 1
+  },
+  "args": {
+    "Project": {
+      "limit": 10
+    },
+    "Project_by_pk": {
+      "id": 2364
+    },
+    "Organisation": {
+      "limit": 10
+    },
+    "Organisation_by_pk": {
+      "id": 1242
+    },
+    "Image": {
+      "limit": 10
+    },
+    "Image_by_pk": {
+      "id": 832
+    },
+    "FeaturedCollection": {
+      "limit": 1
+    },
+    "FeaturedCollection_by_pk": {
+      "id": 1
+    }
+  }
+}
